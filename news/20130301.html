@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>联合动力有限公司</title>
+    <meta id="Keywords" content="联合动力有限公司" />
+    <meta id="Description" content="联合动力有限公司" />
+    <link rel="shortcut icon" href="http://www.unitepowers.com/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/public/style.css" media="screen" />
+    <script type="text/javascript" src="/public/jquery.js"></script>
+    <script type="text/javascript">
+        // Navigation Menu
+        $(function () {
+            $(".menu ul").css({ display: "none" }); // Opera Fix
+            $(".menu li:first").addClass("homepage");
+            $(".menu li").hover(function () {
+                $(this).find('ul:first').css({ visibility: "visible", display: "none" }).slideDown("normal");
+            }, function () {
+                $(this).find('ul:first').css({ visibility: "hidden" });
+            });
+        });
+
+        // Bookmark
+        function bookmark(title, url) {
+            if (document.all)
+                window.external.AddFavorite(url, title);
+            else if (window.sidebar)
+                window.sidebar.addPanel(title, url, "")
+        }
+    </script>
+</head>
+<body>
+    <!-- Wrapper Begin-->
+    <div class="wrapper">
+        <!-- Header Begin-->
+        <div class="header">
+            <!-- Logo Begin-->
+            <h1 class="logo">
+                <a href="http://www.unitepowers.com/" title="">联合动力有限公司</a>
+            </h1>
+            <!-- Logo end-->
+            <!-- Header Right Begin-->
+            <div class="headerR">
+                <!-- Mini Function Begin-->
+                <div class="mini_func">
+                    <a href="/index.html">中文</a> | <a href="/eng_index.html">English</a> &nbsp;&nbsp;
+                    <a href="#" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.unitepowers.com');" class="homepage">设为首页</a>
+                    <a href="#" onclick="javascript:bookmark('联合动力有限公司','http://www.unitepowers.com');" target="_blank" class="favicon">加为收藏</a>
+                </div>
+                <!-- Mini Function end-->
+                <div class="clear">
+                </div>
+                <!-- Search Begin-->
+                <!--<div class="search">
+                    <form method="get" id="searchform" action="http://www.unitepowers.com/">
+                    <input class="searchInput" value="输入关键字" name="s" id="s" type="text"/>
+                    <input class="searchBtn" id="searchsubmit" title="搜索" value="" type="submit"/>
+                    </form>
+                    <script type="text/javascript">
+                        $(document).ready(function () {
+                            // 当鼠标聚焦在搜索框
+                            $('#s').focus(
+			                    function () {
+			                        if ($(this).val() == '输入关键字') {
+			                            $(this).val('').css({ color: "#454545" });
+			                        }
+			                    }
+                            // 当鼠标在搜索框失去焦点
+		                    ).blur(
+			                    function () {
+			                        if ($(this).val() == '') {
+			                            $(this).val('输入关键字').css({ color: "#333333" });
+			                        }
+			                    }
+		                    );
+                        });
+                    </script>
+                </div>-->
+                <!-- Search end-->
+            </div>
+            <!-- Header Right end-->
+            <div class="clear">
+            </div>
+            <!-- Main Menu Begin-->
+            <div class="navigation">
+                <ul class="menu">
+                    <li id="home" class="homepage"><a href="/index.html" title="联合动力有限公司(UnitePowers LLC)">首 页</a></li>
+                    <li id="news" class="cat-item cat-item-1"><a href="/news/index.html" title="新闻资讯(News)">新闻资讯</a></li>
+                    <li id="intro" class="page_item page-item-6"><a href="/intro/index.html" title="公司介绍(About Us)">公司介绍</a>
+                        <ul style="display: none;" class="children">
+                            <li class="page_item page-item-8"><a href="/intro/index.html" title="公司简介(About Us)">公司简介</a></li>
+                            <li class="page_item page-item-10"><a href="/intro/culture.html" title="企业文化(Corporate Culture)">企业文化</a></li>
+                            <li class="page_item page-item-12"><a href="/intro/group.html" title="组织架构(Management Team)">组织架构</a></li>
+                            <li class="page_item page-item-14"><a href="/intro/honour.html" title="企业荣誉(Enterprise Honor)">企业荣誉</a></li>
+                            <li class="page_item page-item-16"><a href="/intro/develop.html" title="发展历程(Development History)">发展历程</a></li>
+                        </ul>
+                    </li>
+                    <li id="products" class="cat-item cat-item-4"><a href="/products/index.html" title="主要产品(Products)">主要产品</a>
+                        <ul style="display: none;" class="children">
+                            <li class="cat-item cat-item-5"><a href="/products/large_li.html" title="查看 大容量锂塑电池 下的所有文章">大容量锂塑电池</a></li>
+                            <li class="cat-item cat-item-6"><a href="/products/large_li.html" title="查看 功能型锂塑电池 下的所有文章">功能型锂塑电池</a></li>
+                            <li class="cat-item cat-item-7"><a href="/products/membrane.html" title="查看 薄膜材料 下的所有文章">薄膜材料</a></li>
+                            <li class="cat-item cat-item-8"><a href="/products/electrode.html" title="查看 电极材料 下的所有文章">电极材料</a></li>
+                            <li class="cat-item cat-item-11"><a href="/products/manufacture.html" title="查看 制造设备 下的所有文章">制造设备</a></li>
+                            <li class="cat-item cat-item-12"><a href="/products/storage.html" title="查看 储能系统 下的所有文章">储能系统</a></li>
+                            <li class="cat-item cat-item-12"><a href="/products/thinfilm.html" title="查看 薄膜传感器 下的所有文章">薄膜传感器</a></li>
+                            <li class="cat-item cat-item-12"><a href="/products/thinfilm.html" title="查看 医疗传感器 下的所有文章">医疗传感器</a></li>
+                            <li class="cat-item cat-item-12"><a href="/products/trans.html" title="查看 传感系统 下的所有文章">传感系统</a></li>
+                        </ul>
+                    </li>
+                    <li id="markets" class="page_item page-item-18 "><a href="/markets/index.html" title="产品市场(Markets)">产品市场</a></li>
+                    <li id="projects" class="page_item page-item-18"><a href="/projects/index.html" title="工程案例(Engineering Projects)">工程案例</a></li>
+                    <li id="technical_services" class="page_item page-item-18"><a href="/technical_services/index.html" title="技术服务(Technical Services)">技术服务</a></li>
+                    <li id="supply_demand" class="page_item page-item-18"><a href="/supply_demand/index.html" title="商业合作(Supply Demand)">商业合作</a></li>
+                    <li id="customer_services" class="page_item page-item-18"><a href="/customer_services/index.html" title="客户服务(Customer Services)">客户服务</a></li>
+                    <li id="hr" class="page_item page-item-18"><a href="/hr/index.html" title="人力资源(Human Resources)">人力资源</a></li>
+                    <li id="contact" class="page_item page-item-18"><a href="/contact/index.html" title="联系我们(Contact Us)">联系我们</a></li>
+                    <!--<li id="feedback" class="page_item page-item-20"><a href="/feedback/index.html" title="留言版(GuestBook)">留言版</a></li>-->
+                </ul>
+            </div>
+            <!-- Main Menu end-->
+        </div>
+        <!-- Header end-->
+<!-- Banner Begin -->
+<div class="banner">
+    		<img src="../public/images/news.jpg">
+	</div>
+<!-- Banner end -->
+<!-- Container Begin-->
+<div class="container">
+    <div class="containerTop"></div>
+    <div class="containerContent">
+    <!-- Content Begin-->
+<div class="content">
+    <!-- Breadcrumb begin -->
+    <div class="breadcrumb">
+        当前位置: <a href="http://www.unitepowers.com/">首页</a> &gt; <a href="index.html" title="查看 新闻资讯 中的全部文章" rel="category">新闻资讯</a> &gt; 详细内容
+    </div>
+    <!-- breadcrumb end -->
+    <!-- Post Begin-->
+    <div class="posts single" id="post-67">
+        <h2>UnitePowers 在原有数字与绿色工程新材料专门实验室(Digital and Green Engineering Materials Laboratories)的基础上组建睿智工程材料有限公司(Strategic Engineering Materials Co., LTD.), 主营数字与绿色工程新材料及结构与功能组件新产品系列化开发与模块化制造业务</h2>
+
+        <p>UnitePowers 在原有数字与绿色工程新材料专门实验室(Digital and Green Engineering Materials Laboratories)的基础上组建睿智工程材料有限公司(Strategic Engineering Materials Co., LTD.) ，主营数字与绿色工程新材料及结构与功能组件新产品系列化开发与模块化制造业务。同时也为原有的模块化电池电芯(Strategic Energy S&T Co., LTD.)与传感器电芯(Strategic Sensing S&T Co., LTD.)及电子化学与电源专门实验室(Electronics, Wet Chemistry & Battery Laboratories)产品业务与市场发展提供先进工程材料与先进工程组件制造的专业保证。</p>
+        <p>“数字化与绿色”设计,提高制造工艺水平,降低能源、材料消耗,改善环境,提高产品质量和效率。“绿色”作为企业战略必将深深植入企业，贯穿企业设计、生产、经营和文化的各个方面。绿色设计思想已经成为产品设计的主流，在产品的整个生命周期中积极倡导人与自然的和谐共处，这是顺应促进社会可持续发展的时代要求，也是未来产品设计的发展趋势。绿色氛围与拥有绿色DNA的企业产品，实现真正意义上 “绿色”企业。</p>
+        <table>
+            <tr>
+                <td><img class="attachment-small" src="../public/images/news/20130301/1.jpg" /></td>
+                <td><img class="attachment-small" src="../public/images/news/20130301/2.jpg" />
+                <img class="attachment-small" src="../public/images/news/20130301/3.jpg" /></td>
+            </tr>
+        </table>
+        <p>价值链是指某种产品的研究、开发、制造、流通、销售等一系列过程。部件企业负责价值链的上游，成品企业则负责下游。增强革新技术与革新性产品的开发在于成品企业与部件企业的合作与二者的“定位”与“安全性保障”。按照价值链的结构，成品企业与部件企业的定位可以大致分为两类，即“磨合型”与“模块型”。“磨合型”是指“成品企业与部件企业之间检验关键技术和部件的相互依存关系，对技术和部件进行改进的方法”。磨合型的制造过程复杂，因此，企业之间必须不断沟通，对方向进行调整。传统型汽车和飞机的制造过程是磨合型的代表。模块型是将设计块拼凑起来，便于大量生产以及外包代工与转移生产，能够压缩产品的成本。在模块型代表之一的个人电脑行业，操作系统和半导体芯片企业如今比成品企业实力更强，行业的附加值已经从成品企业转移到了部件企业，或较容易地从部件企业转变为或代替成品企业。价值链的结构正在从磨合型向模块型发展与转变的趋势, 但要认清并区分传统消费行业部件企业与高安全性高风险成品企业的关键作用。相比较于传统消费行业部件企业，确保安全性是成品企业的责任，决定革新性技术方向的是成品企业。 安全性要求非常高的飞机及汽车领域更是这样。需要自主性较高、具备高度安全性的产品，承担风险、提供附加值、获得利益（承受损失）的不是部件厂商，而是成品企业公司。</p>
+        <p>绿色设计作为以节约资源和保护环境为产品设计理念，强调人与自然的和谐共存，受到越来越多制造企业的重视。设计师在设计方面除了要考虑产品的外观和功能，也要从绿色环保入手，要从对社会负责任的角度去理解一个绿色环保、安全节能的设计对于整个社会的影响。同时，绿色设计概念的推广不应仅限于设计师与企业，更应深人市场，从设计本身完善产业链的良性循环。 绿色设计指的是在产品整个生命周期内，着重考虑产品对自然资源、环境影响，将可拆除性、可回收性、可重复利用性等要素融入到产品设计的各个环节中去。在满足环境要求的同时，兼顾产品应有的基本功能、使用寿命、经济性和质量等。着重于绿色材料设计、产品绿色结构设计、绿色能耗设计、绿色包装设计、绿色制造过程设计等。</p>
+        <p>产品模块化设计是实现绿色设计中较核心的内容。产品的模块化设计的主要目的就是以尽量少的种类和数量的模块组成尽可能多种类、规格，性能、功能不同的产品，其优点一是让用户可以通过不同模块的搭配得到自己需要的产品，满足个性化的需求；二是方便用户在使用过程中对产品进行局部维护或升级达到延长产品寿命减少材料资源消耗的目的。利用模块化设计、开放性设计、可维修性设计、可重构性设计和技术预测等设计理论和方法，实现模块的划分是模块化设计的关键: 以功能为划分基础，也就是要明确每一块模块所具有的功能；以结构为载体，研究每一模块之间的组合方式，因此结构其实是模块化产品的载体。为了确保模块化设计中模块的互换性，重点应尽量保证接口的标准化。</p>
+        <p>推进城镇化，推动城镇化向质量提升转变，推进生态文明建设;  深化产业结构调整，构建现代产业发展新体系，化解产能过剩矛盾;  发展经济、提高质量、增加效益、增强后劲。绿色设计, 生活其实可以更美好。</p>
+
+        </div>
+    <div class="clear"></div>
+    <!-- Page navi begin -->
+    <div class="pageNavi">
+        <div class="pageleft"><strong>上一篇: </strong><a href="20130206.html" rel="prev">UnitePowers 改变锂电池充放电保护电路 (Cell Protection)传统观念, 在3-in-1锂电电芯设计与电芯平衡保护 技术上的创新突破 (3-in-1 Li-Polymer Cell Design, Balancing and Protection Innovation and Breakthrough)</a></div>
+        <div class="pageright"><strong>下一篇: </strong><a href="20130901.html" rel="prev">Refine Energy 瑞能科技: 瑞帆能源科技有限公司发展太阳能光伏发电储能与照明项目(Refinenergy Technologies Co., LTD.)</a> </div>
+    </div>
+    <!-- Page navi end -->
+	<!-- Post end-->
+</div>
+<!-- Content end-->                 
+        <!-- Sidebar Begin-->
+<div class="sidebar">
+    <ul>
+        <!-- Products begin -->
+        <!-- Products end -->
+        <!-- Sub pages begin -->
+        <!-- Sub pages end -->
+        <!-- News begin -->
+        <li>
+            <h3>
+                新闻资讯</h3>
+            <ul>
+                <li><a href="20130901.html" title="Refine Energy 瑞能科技: 瑞帆能源科技有限公司发展太阳能光伏发电储能与照明项目(Refinenergy Technologies Co., LTD.)">
+                    Refine Energy 瑞能科技: 瑞帆能源科技有限公司发展太阳能光伏发电储能与照明项目(Refinenergy Technologies Co., LTD.)</a></li>
+                <li><a href="20130301.html" title="UnitePowers 在原有数字与绿色工程新材料专门实验室(Digital and Green Engineering Materials Laboratories)的基础上组建睿智工程材料有限公司(Strategic Engineering Materials Co., LTD.), 主营数字与绿色工程新材料及结构与功能组件新产品系列化开发与模块化制造业务">
+                    UnitePowers 在原有数字与绿色工程新材料专门实验室(Digital and Green Engineering Materials Laboratories)的基础上组建睿智工程材料有限公司(Strategic
+                    Engineering Materials Co., LTD.), 主营数字与绿色工程新材料及结构与功能组件新产品系列化开发与模块化制造业务</a></li>
+                <li><a href="20130206.html" title="UnitePowers 改变锂电池充放电保护电路 (Cell Protection)传统观念, 在3-in-1锂电电芯设计与电芯平衡保护 技术上的创新突破 (3-in-1 Li-Polymer Cell Design, Balancing and Protection Innovation and Breakthrough)">
+                    UnitePowers 改变锂电池充放电保护电路 (Cell Protection)传统观念, 在3-in-1锂电电芯设计与电芯平衡保护 技术上的创新突破 (3-in-1
+                    Li-Polymer Cell Design, Balancing and Protection Innovation and Breakthrough)</a></li>
+                <li><a href="20130205.html" title="新能源含氟薄膜加工实验室 (New Energy Fluorine-Containing Films Processing Laboratory )">
+                    新能源含氟薄膜加工实验室 (New Energy Fluorine-Containing Films Processing Laboratory )</a></li>
+                <li><a href="20130204.html" title="UnitePowers 引进专业企业系统管理模式及资源规划 ERP (Enterprise Resource Planning), 为公司提供企业管理信息化集成的最佳方案SAP (Systems Applications and Products), 提供公司决策层及员工决策运行手段的管理平台">
+                    UnitePowers 引进专业企业系统管理模式及资源规划 ERP (Enterprise Resource Planning), 为公司提供企业管理信息化集成的最佳方案SAP
+                    (Systems Applications and Products), 提供公司决策层及员工决策运行手段的管理平台</a></li>
+                <li><a href="20130203.html" title="UnitePowers 引进专业工业工程过程与制造产品标准、品质保证与科学安全管理方案 (IEOR Chemical, Materials and Cell Process Product Standards, Quality Assurance and Scientific Operations)">
+                    UnitePowers 引进专业工业工程过程与制造产品标准、品质保证与科学安全管理方案 (IEOR Chemical, Materials and Cell Process
+                    Product Standards, Quality Assurance and Scientific Operations)</a></li>
+                <li><a href="20130202.html" title="UnitePowers 引进专业工业工程电芯设计 与技术产品发展创新方案(IEOR Cell Design, Technology Product Innovations)">
+                    UnitePowers 引进专业工业工程电芯设计 与技术产品发展创新方案(IEOR Cell Design, Technology Product Innovations)</a></li>
+                <li><a href="2013020102.html" title="智能手表 (iWatch)健康表带 (Smartwatch, iMonitorTM) 开拓便携式可穿戴市场:  智能手机 (Smartphone)的好伴侣">
+                    智能手表 (iWatch)健康表带 (Smartwatch, iMonitorTM) 开拓便携式可穿戴市场: 智能手机 (Smartphone)的好伴侣</a></li>
+                <li><a href="20130201.html" title="秉承“传承经典，创新未来”的理念 - 大众机械 杂志: 101种改变世界的小器具 (Popular Mechanics: 101 Gadgets that Changed the World)">
+                    秉承“传承经典，创新未来”的理念 - 大众机械 杂志: 101种改变世界的小器具 (Popular Mechanics: 101 Gadgets that Changed
+                    the World)</a></li>
+                <li><a href="20130109.html" title="美国外国投资委员会正式批准万向集团全资子公司万向洁能美国公司2.566亿美元收购破产申请的美国A123系统公司, 包括A123中国独资公司、常州高博能源材料有限公司在内的阴极电池制造业务和上海捷新动力电池的相应股权">
+                    美国外国投资委员会正式批准万向集团全资子公司万向洁能美国公司2.566亿美元收购破产申请的美国A123系统公司, 包括A123中国独资公司、常州高博能源材料有限公司在内的阴极电池制造业务和上海捷新动力电池的相应股权</a></li>
+                <li><a href="20130108.html" title="光伏发电与电池储能电站 (PV Solar Power Generation and Battery Energy Storage): 常州10个光伏应用项目获3.37亿财政补贴, 同时为配套储能电池电站与城镇化建设发展提供契机">
+                    光伏发电与电池储能电站 (PV Solar Power Generation and Battery Energy Storage): 常州10个光伏应用项目获3.37亿财政补贴,
+                    同时为配套储能电池电站与城镇化建设发展提供契机</a></li>
+                <li><a href="20130107.html" title="锂离子电池产业链全景分布图  New Panorama Layers of Upstream and Downstream of  the Industry Value Chain of Li-ion Battery  LIB">
+                    锂离子电池产业链全景分布图 New Panorama Layers of Upstream and Downstream of the Industry Value
+                    Chain of Li-ion Battery LIB</a></li>
+                <li><a href="20130106.html" title="UnitePowers 联合动力有限公司全新电池与电容电极材料设计与突破  (New Electrode Materials Design Innovation and Breakthrough, 2013 Battery and Capacitor)">
+                    UnitePowers 联合动力有限公司全新电池与电容电极材料设计与突破 (New Electrode Materials Design Innovation
+                    and Breakthrough, 2013 Battery and Capacitor)</a></li>
+                <li><a href="20130105.html" title="锂电负极常青树-中间相碳微球 (CMS or MCMB):  杉杉锂电负极材料中间相炭微球项目投产">
+                    锂电负极常青树-中间相碳微球 (CMS or MCMB): 杉杉锂电负极材料中间相炭微球项目投产</a></li>
+                <li><a href="20130104.html" title="十年(2002-2012) 纳米碳及复合碳基材料产业化:  从合成第一个石墨烯的模型化合物到超细石墨粉体与碳增强复合材料的规模生产  10-year Nano-Carbon & Nano-Composite Innovations and Business:  From 1st Graphene Model Compound Synthesis to Design and Manufacture of Nano-Carbon Graphites and Carbon Reinforced Composites">
+                    十年(2002-2012) 纳米碳及复合碳基材料产业化: 从合成第一个石墨烯的模型化合物到超细石墨粉体与碳增强复合材料的规模生产 10-year Nano-Carbon
+                    & Nano-Composite Innovations and Business: From 1st Graphene Model Compound Synthesis
+                    to Design and Manufacture of Nano-Carbon Graphites and Carbon Reinforced Composites</a></li>
+                <li><a href="20130103.html" title="Polymer Dispersed Liquid Crystals  (PDLC Film) were invented at Kent State University in 1983. 30 years  (1983-2013) of development and business of low-cost  Smart Switchable PDLC Windows.">
+                    Polymer Dispersed Liquid Crystals (PDLC Film) were invented at Kent State University
+                    in 1983. 30 years (1983-2013) of development and business of low-cost Smart Switchable
+                    PDLC Windows.</a></li>
+                <li><a href="20130102.html" title="功能塑性薄膜与TFC 增强复合膜创新制造:  常州功能新材料产业园, “苏南膜都”产业链    Functional Plastic Films and TFC Reinforced Membrane Innovations:  Changzhou Functional New Materials Industrial Park and Value Chain">
+                    功能塑性薄膜与TFC 增强复合膜创新制造: 常州功能新材料产业园, “苏南膜都”产业链 Functional Plastic Films and TFC Reinforced
+                    Membrane Innovations: Changzhou Functional New Materials Industrial Park and Value
+                    Chain</a></li>
+                <li><a href="20130101.html" title="全球第一个图形触觉显示器：让盲人感受图像   Finger-Friendly “Tactile Interface” Could Aid Blind Computer Users">
+                    全球第一个图形触觉显示器：让盲人感受图像 Finger-Friendly “Tactile Interface” Could Aid Blind Computer
+                    Users</a></li>
+                <li><a href="2012123107.html" title="<i>i</i>BattTM China and USA Trademark Applications">
+                    <i>i</i>BattTM China and USA Trademark Applications</a></li>
+                <li><a href="2012123106.html" title="“Built-in Pre-Charged Materials: From Microphone to Battery and Vice Versa” - for 50 years of the development of foil electret microphone of Bell Laboratories (1962-2012)">
+                    “Built-in Pre-Charged Materials: From Microphone to Battery and Vice Versa” - for
+                    50 years of the development of foil electret microphone of Bell Laboratories (1962-2012)</a></li>
+                <li><a href="2012123105.html" title="二十年聚合物锂离子电池商业化 Plastic Lithium Ion Battery (PLIB) Business:  1994 Bellcore Patented the Plastic Lithium Ion (PLI) Technology or Solid State Battery, and First All-Plastic Battery of Johns Hopkins as One of 100 Top Scientific Developments and Inventions for 1996">
+                    二十年聚合物锂离子电池商业化 Plastic Lithium Ion Battery (PLIB) Business: 1994 Bellcore Patented
+                    the Plastic Lithium Ion (PLI) Technology or Solid State Battery, and First All-Plastic
+                    Battery of Johns Hopkins as One of 100 Top Scientific Developments and Inventions
+                    for 1996</a></li>
+                <li><a href="2012123104.html" title="二十年高能密度电活性聚合物及复合薄膜储能换能产品的研发促成我们模块化大容量锂塑电池与模块化高灵敏度压塑电芯走向商业化 (The Business of Innovations of Modular Large-Capacity Li-Polymer Cell and Modular High-Sensitivity Piezo-Polymer Cell via 20-Year R&D of High Energy Density Electroactive Polymers and TFC Membrane Energy Storage and Conversion)">
+                    二十年高能密度电活性聚合物及复合薄膜储能换能产品的研发促成我们模块化大容量锂塑电池与模块化高灵敏度压塑电芯走向商业化 (The Business of Innovations
+                    of Modular Large-Capacity Li-Polymer Cell and Modular High-Sensitivity Piezo-Polymer
+                    Cell via 20-Year R&D of High Energy Density Electroactive Polymers and TFC Membrane
+                    Energy Storage and Conversion)</a></li>
+                <li><a href="2012123103.html" title="IBM 首次拍到多環芳香烴（Polycyclic Aromatic Hydrocarbons，縮寫PAH）单个分子及离域超电子极化超共面共轭碳大分子的清晰照片">
+                    IBM 首次拍到多環芳香烴（Polycyclic Aromatic Hydrocarbons，縮寫PAH）单个分子及离域超电子极化超共面共轭碳大分子的清晰照片</a></li>
+                <li><a href="2012123102.html" title="《新材料产业“十二五”发展规划》与 《高性能膜材料科技发展“十二五”专项规划》">《新材料产业“十二五”发展规划》与
+                    《高性能膜材料科技发展“十二五”专项规划》</a></li>
+                <li><a href="2012123101.html" title="国家能源局《国家能源科技“十二五”规划（2011-2015）》及国家能源研发（实验）中心授牌">
+                    国家能源局《国家能源科技“十二五”规划（2011-2015）》及国家能源研发（实验）中心授牌</a></li>
+                <li><a href="2012100101.html" title="“十二五”国家战略性新兴产业发展规划">“十二五”国家战略性新兴产业发展规划</a></li>
+                <li><a href="2012100102.html" title="《“健康中国2020”战略研究报告》">《“健康中国2020”战略研究报告》</a></li>
+                <li><a href="2012100103.html" title="Business Spotlight: Innovations beside You 1 – Putting Technology into Products: Gore and e-PTFE">
+                    Business Spotlight: Innovations beside You 1 – Putting Technology into Products:
+                    Gore and e-PTFE</a></li>
+                <li><a href="2012100104.html" title="Business Spotlight: Innovations beside You 2 – Long-Term Teaming, Collaboration and the Entrepreneurial Spirit & 4 Specific Examples of High-Tech Innovation and Industrial Success">
+                    Business Spotlight: Innovations beside You 2 – Long-Term Teaming, Collaboration
+                    and the Entrepreneurial Spirit & 4 Specific Examples of High-Tech Innovation and
+                    Industrial Success</a></li>
+                <li><a href="2012100105.html" title="美国医疗科技行业巨头美敦力(Medtronic):出资约8.16亿美元并购中国康辉(Kanghui)">
+                    美国医疗科技行业巨头美敦力(Medtronic):出资约8.16亿美元并购中国康辉(Kanghui)</a></li>
+                <li><a href="7.html" title="威尔思信息科技公司加盟意向开发电池储能软件系统及远程通讯诊断控制系统！">威尔思信息科技公司加盟意向开发电池储能软件系统及远程通讯诊断控制系统！</a></li>
+                <li><a href="6.html" title="睿智能源科技公司 加盟注资! 太阳能储能系统">睿智能源科技公司 加盟注资! 太阳能储能系统</a></li>
+                <li><a href="5.html" title="巨茂车业 加盟注资!  电极材料生产线与电池组装线">巨茂车业 加盟注资! 电极材料生产线与电池组装线</a></li>
+                <li><a href="4.html" title="大学加盟意向- 产学研相结合，发展新材料新能源产业，实现产学研示范基地">大学加盟意向- 产学研相结合，发展新材料新能源产业，实现产学研示范基地</a></li>
+                <li><a href="3.html" title="联合动力有限公司主要产品">联合动力有限公司主要产品</a></li>
+                <li><a href="2.html" title="“Can you hear me” “Instead hearing, now I can see…”">“Can
+                    you hear me” “Instead hearing, now I can see…”</a></li>
+                <li><a href="1.html" title="企业新闻">企业新闻</a></li>
+            </ul>
+        </li>
+        <!-- News end -->
+        <!-- Contact begin -->
+        <li class="widget widget_text">
+            <div class="textwidget">
+                <a href="/contact/index.html">
+                    <img src="../public/images/contact-us_sidebar.jpg"></a>
+            </div>
+        </li>
+        <!-- Contact end -->
+    </ul>
+</div>
+<!-- Sidebar end-->
+<script language="javascript">
+    $(function () {
+        $("#news").addClass("current-cat");
+    });
+</script>
+        </div>
+</div>
+<!-- Container end-->
+</div>
+<!-- Wrapper end-->
+<div class="clear"></div>
+<!-- BlogRoll begin -->
+<div class="friendlink">
+  <h3>友情链接</h3>
+  <ul>
+    <li><a href="http://ucgef.org/" target="_blank">美中绿色能源促进会</a></li>
+    <li><a href="http://www.sgepri.sgcc.com.cn/" target="_blank">智能电网与电力装备产业联盟</a></li>
+    <li><a href="http://www.chinasmartgrid.com.cn/" target="_blank">智能电网</a></li>
+    <li><a href="http://www.chinapower.com.cn/" target="_blank">电力网</a></li>
+    <li><a href="http://www.sgcc.com.cn/" target="_blank">国家电网</a></li>
+    <li><a href="http://www.epri.sgcc.com.cn" target="_blank">中国电科院EPRI</a></li>
+    <li><a href="http://www.sgepri.sgcc.com.cn/" target="_blank">国网电科院SGEPRI</a></li>
+    <li><a href="http://www.nari-china.com" target="_blank">南瑞集团NARI</a></li>
+    <li><a href="http://www.china5e.com/" target="_blank">能源网</a></li>
+    <li><a href="http://www.solarbe.com/" target="_blank">中国光伏网</a></li>
+    <li><a href="http://www.sqgzz.cn/" target="_blank">太阳能发电网</a></li>
+    <li><a href="http://www.globepv.com/" target="_blank">环球光伏网</a></li>
+    <li><a href="http://www.escn.com.cn/" target="_blank">中国储能网</a></li>
+    <li><a href="http://www.escn.com.cn/special/research/research.html" target="_blank">中国储能研究院</a></li>
+    <li><a href="http://www.electricitystorage.org/about/welcome" target="_blank">ESA</a></li>
+    <li><a href="http://ec-central.org/index.cfm" target="_blank">ECA</a></li>
+    <li><a href="http://www.iec.ch" target="_blank">IEC</a></li>
+    <li><a href="http://www.ewh.ieee.org/cmte/PES-SBC/index.html" target="_blank">SBC</a></li>
+    <li><a href="http://www.electrochem.org" target="_blank">ECS</a></li>
+    <li><a href="http://www.ciaps.org.cn" target="_blank">化学与物理电源行业协会</a></li>
+    <li><a href="http://www.tjbattery.com.cn" target="_blank">锂离子电池网</a></li>
+    <li><a href="http://blog.sina.com.cn/vrbbattery" target="_blank">液流电池网</a></li>
+    <li><a href="http://www.e2sensor.com" target="_blank">传感器网</a></li>
+    <li><a href="http://www.cetimes.com" target="_blank">医疗电子网</a></li>
+    <li><a href="http://www.wsnpark.cn/Default.aspx" target="_blank">智能物联网产业联盟与国家传感信息中心</a></li>
+    <li><a href="http://www.cie-info.org.cn/" target="_blank">电子学会与可穿戴技术产业联盟</a></li>
+    <li><a href="http://www.cetc.com.cn/" target="_blank">中国电科CETC</a></li>
+    <li><a href="http://www.ep.org.cn/" target="_blank">江南微电子</a></li>
+    <li><a href="http://www.cec.com.cn/" target="_blank">中国电子CEC</a></li>
+    <li><a href="http://www.hdeg.com/" target="_blank">华东电子</a></li>
+    <li><a href="http://www.polymer.cn" target="_blank">聚合物网</a></li>
+    <li><a href="http://www.coatingdata.com" target="_blank">薄膜网</a></li>
+    <li><a href="http://www.frponline.com.cn" target="_blank">复材在线</a></li>
+    <li><a href="http://www.mrs.org/home" target="_blank">MRS</a></li>
+    <li><a href="http://www.onami.us/nano-network" target="_blank">ONAMI</a></li>
+    <li><a href="http://www.sampe.org" target="_blank">SAMPE</a></li>
+    <li><a href="http://www.materials.net.cn" target="_blank">新材料产业网</a></li>
+    <li><a href="http://www.zhizaoye.net" target="_blank">先进制造业网</a></li>
+    <li><a href="http://cn.made-in-china.com" target="_blank">制造电子商务网</a></li>
+    <li><a href="http://www.mesworld.cn/" target="_blank">数字化制造网</a></li>
+    <li><a href="http://www.nema.org/Pages/default.aspx" target="_blank">NEMA</a></li>
+    <li><a href="http://www.edsc.org" target="_blank">EDS</a></li>
+    <li><a href="http://www.ce.org" target="_blank">CEA</a></li>
+    <li><a href="http://cesweb.org" target="_blank">CES</a></li>
+    <li><a href="http://www.ca800.com/pt/powerelectronic.html" target="_blank">电力电子网</a></li>
+    <li><a href="http://www.ep-soft.cn/" target="_blank">电力信息化网</a></li>
+    <li><a href="http://xinxihua.bjx.com.cn/" target="_blank">电力软件网</a></li>
+    <li><a href="http://www.ddqcw.com/" target="_blank">电动汽车网</a></li>
+    <li><a href="http://www.fadian.org/" target="_blank">发电机网</a></li>
+    <li><a href="http://www.statepower.com.cn/" target="_blank">电力设备管理协会</a></li>
+    <li><a href="http://www.cceep.com/" target="_blank">电力设备网</a></li>
+    <li><a href="http://www.dlsbpj.com/" target="_blank">电力设备配件网</a></li>
+    <li><a href="http://www.cndlzb.com/" target="_blank">电力设备招标网</a></li>
+    <li><a href="http://www.cpeinet.com.cn/" target="_blank">电能成套设备信息网</a></li>
+    <li><a href="http://www.ceeia.com/" target="_blank">电器工业协会CEEIA</a></li>
+  </ul>
+</div>
+<!-- BlogRoll end -->
+<!-- Footer Begin-->
+<div class="footer">
+	<!--<ul class="footpage">
+        <li class="nb"><a href="http://www.unitepowers.com/">首页</a></li>
+        <li class="page_item page-item-20"><a href="http://www.unitepowers.com/?page_id=20" title="留言版">留言版</a></li>
+        <li class="page_item page-item-18"><a href="http://www.unitepowers.com/?page_id=18" title="联系我们">联系我们</a></li>
+        <li class="page_item page-item-6"><a href="http://www.unitepowers.com/?page_id=6" title="公司介绍">公司介绍</a></li>
+    </ul>-->
+   	<p>Copyright (c) 2010-2012 UnitePowers.com All rights reserved. 联合动力有限公司版权所有. Inquiries Welcome:<a href="mailto:info@unitepowers.com">info@unitepowers.com</a></p>
+</div>
+<!-- Footer end-->
+</body>
+</html>
