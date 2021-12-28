@@ -1,0 +1,564 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>联合动力有限公司</title>
+    <meta id="Keywords" content="联合动力有限公司" />
+    <meta id="Description" content="联合动力有限公司" />
+    <link rel="shortcut icon" href="http://www.unitepowers.com/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/public/style.css" media="screen" />
+    <script type="text/javascript" src="/public/jquery.js"></script>
+    <script type="text/javascript">
+        // Navigation Menu
+        $(function () {
+            $(".menu ul").css({ display: "none" }); // Opera Fix
+            $(".menu li:first").addClass("homepage");
+            $(".menu li").hover(function () {
+                $(this).find('ul:first').css({ visibility: "visible", display: "none" }).slideDown("normal");
+            }, function () {
+                $(this).find('ul:first').css({ visibility: "hidden" });
+            });
+        });
+
+        // Bookmark
+        function bookmark(title, url) {
+            if (document.all)
+                window.external.AddFavorite(url, title);
+            else if (window.sidebar)
+                window.sidebar.addPanel(title, url, "")
+        }
+    </script>
+</head>
+<body>
+    <!-- Wrapper Begin-->
+    <div class="wrapper">
+        <!-- Header Begin-->
+        <div class="header">
+            <!-- Logo Begin-->
+            <h1 class="logo">
+                <a href="http://www.unitepowers.com/" title="">联合动力有限公司</a>
+            </h1>
+            <!-- Logo end-->
+            <!-- Header Right Begin-->
+            <div class="headerR">
+                <!-- Mini Function Begin-->
+                <div class="mini_func">
+                    <a href="/index.html">中文</a> | <a href="/eng_index.html">English</a> &nbsp;&nbsp;
+                    <a href="#" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.unitepowers.com');" class="homepage">设为首页</a>
+                    <a href="#" onclick="javascript:bookmark('联合动力有限公司','http://www.unitepowers.com');" target="_blank" class="favicon">加为收藏</a>
+                </div>
+                <!-- Mini Function end-->
+                <div class="clear">
+                </div>
+                <!-- Search Begin-->
+                <!--<div class="search">
+                    <form method="get" id="searchform" action="http://www.unitepowers.com/">
+                    <input class="searchInput" value="输入关键字" name="s" id="s" type="text"/>
+                    <input class="searchBtn" id="searchsubmit" title="搜索" value="" type="submit"/>
+                    </form>
+                    <script type="text/javascript">
+                        $(document).ready(function () {
+                            // 当鼠标聚焦在搜索框
+                            $('#s').focus(
+			                    function () {
+			                        if ($(this).val() == '输入关键字') {
+			                            $(this).val('').css({ color: "#454545" });
+			                        }
+			                    }
+                            // 当鼠标在搜索框失去焦点
+		                    ).blur(
+			                    function () {
+			                        if ($(this).val() == '') {
+			                            $(this).val('输入关键字').css({ color: "#333333" });
+			                        }
+			                    }
+		                    );
+                        });
+                    </script>
+                </div>-->
+                <!-- Search end-->
+            </div>
+            <!-- Header Right end-->
+            <div class="clear">
+            </div>
+            <!-- Main Menu Begin-->
+            <div class="navigation">
+                <ul class="menu">
+                    <li id="home" class="homepage"><a href="/index.html" title="联合动力有限公司(UnitePowers LLC)">首 页</a></li>
+                    <li id="news" class="cat-item cat-item-1"><a href="/news/index.html" title="新闻资讯(News)">新闻资讯</a></li>
+                    <li id="intro" class="page_item page-item-6"><a href="/intro/index.html" title="公司介绍(About Us)">公司介绍</a>
+                        <ul style="display: none;" class="children">
+                            <li class="page_item page-item-8"><a href="/intro/index.html" title="公司简介(About Us)">公司简介</a></li>
+                            <li class="page_item page-item-10"><a href="/intro/culture.html" title="企业文化(Corporate Culture)">企业文化</a></li>
+                            <li class="page_item page-item-12"><a href="/intro/group.html" title="组织架构(Management Team)">组织架构</a></li>
+                            <li class="page_item page-item-14"><a href="/intro/honour.html" title="企业荣誉(Enterprise Honor)">企业荣誉</a></li>
+                            <li class="page_item page-item-16"><a href="/intro/develop.html" title="发展历程(Development History)">发展历程</a></li>
+                        </ul>
+                    </li>
+                    <li id="products" class="cat-item cat-item-4"><a href="/products/index.html" title="主要产品(Products)">主要产品</a>
+                        <ul style="display: none;" class="children">
+                            <li class="cat-item cat-item-5"><a href="/products/large_li.html" title="查看 大容量锂塑电池 下的所有文章">大容量锂塑电池</a></li>
+                            <li class="cat-item cat-item-6"><a href="/products/large_li.html" title="查看 功能型锂塑电池 下的所有文章">功能型锂塑电池</a></li>
+                            <li class="cat-item cat-item-7"><a href="/products/membrane.html" title="查看 薄膜材料 下的所有文章">薄膜材料</a></li>
+                            <li class="cat-item cat-item-8"><a href="/products/electrode.html" title="查看 电极材料 下的所有文章">电极材料</a></li>
+                            <li class="cat-item cat-item-11"><a href="/products/manufacture.html" title="查看 制造设备 下的所有文章">制造设备</a></li>
+                            <li class="cat-item cat-item-12"><a href="/products/storage.html" title="查看 储能系统 下的所有文章">储能系统</a></li>
+                            <li class="cat-item cat-item-12"><a href="/products/thinfilm.html" title="查看 薄膜传感器 下的所有文章">薄膜传感器</a></li>
+                            <li class="cat-item cat-item-12"><a href="/products/thinfilm.html" title="查看 医疗传感器 下的所有文章">医疗传感器</a></li>
+                            <li class="cat-item cat-item-12"><a href="/products/trans.html" title="查看 传感系统 下的所有文章">传感系统</a></li>
+                        </ul>
+                    </li>
+                    <li id="markets" class="page_item page-item-18 "><a href="/markets/index.html" title="产品市场(Markets)">产品市场</a></li>
+                    <li id="projects" class="page_item page-item-18"><a href="/projects/index.html" title="工程案例(Engineering Projects)">工程案例</a></li>
+                    <li id="technical_services" class="page_item page-item-18"><a href="/technical_services/index.html" title="技术服务(Technical Services)">技术服务</a></li>
+                    <li id="supply_demand" class="page_item page-item-18"><a href="/supply_demand/index.html" title="商业合作(Supply Demand)">商业合作</a></li>
+                    <li id="customer_services" class="page_item page-item-18"><a href="/customer_services/index.html" title="客户服务(Customer Services)">客户服务</a></li>
+                    <li id="hr" class="page_item page-item-18"><a href="/hr/index.html" title="人力资源(Human Resources)">人力资源</a></li>
+                    <li id="contact" class="page_item page-item-18"><a href="/contact/index.html" title="联系我们(Contact Us)">联系我们</a></li>
+                    <!--<li id="feedback" class="page_item page-item-20"><a href="/feedback/index.html" title="留言版(GuestBook)">留言版</a></li>-->
+                </ul>
+            </div>
+            <!-- Main Menu end-->
+        </div>
+        <!-- Header end-->
+<!-- Banner Begin -->
+<div class="banner">
+    		<img src="../public/images/news.jpg">
+	</div>
+<!-- Banner end -->
+<!-- Container Begin-->
+<div class="container">
+    <div class="containerTop"></div>
+    <div class="containerContent">
+    <!-- Content Begin-->
+<div class="content">
+    <!-- Breadcrumb begin -->
+    <div class="breadcrumb">
+        当前位置: <a href="http://www.unitepowers.com/">首页</a> &gt; <a href="index.html" title="查看 新闻资讯 中的全部文章" rel="category">新闻资讯</a> &gt; 详细内容
+    </div>
+    <!-- breadcrumb end -->
+    <!-- Post Begin-->
+    <div class="posts single" id="post-67">
+        <h2>二十年高能密度电活性聚合物及复合薄膜储能换能产品的研发促成我们模块化大容量锂塑电池与模块化高灵敏度压塑电芯走向商业化 (The Business of Innovations of Modular Large-Capacity Li-Polymer Cell and Modular High-Sensitivity Piezo-Polymer Cell via 20-Year R&D of High Energy Density Electroactive Polymers and TFC Membrane Energy Storage and Conversion)</h2>
+        <p>关键词:  储能 (Energy Storage); 电池 (Battery); 电容 (Capacitor); 电活性材料 (Electroactive Material); 薄膜 (Thin Film); 纳米复合材料(NanoComposite); 逾渗 (Percolation)</p>
+        <p>我们对电活性聚合物及复合薄膜材料储能换能产品的研发开始于上世纪九十年代。二十年来, 全球电活性储能换能产品的研究与商业化取得了长足的进展。我们在不断的尝试与探索中不断改进, 不断创新, 寻找产品工业化成功的希望, 同时也积累了很多产品研发与市场需求的宝贵经验, 为电活性聚合物及复合薄膜材料储能换能的商业成功打下了坚实的基础。二十年来, 我们提出了很多尝试性的设想并努力去实现, 不断接受前人的经验与教训, 寻找合适的合作伙伴, 面向市场与客户, 走进消费者, 坚持从“技术研发主导”到“产品设计主导”的创新思想, 坚持 “以人为本” 的产品设计理念, 促成我们具有核心技术自主知识产权及核心产品模块化大容量锂塑电池 (Modular Large-Capacity Li-Polymer Cell)与模块化高灵敏度压塑电芯 (Modular High-Sensitivity Pizeo-Polymer Cell) 走向商业化, 并提供客户储能与换能解决方案及优质服务。当回首, 经验与教训同在, 工程科学研究与产品研发更需要市场与时间来作检验。</p>
+        
+        <div>
+            <img class="attachment-small" src="/public/images/news/2012123104/b-1.jpg" />
+            <br />Power vs. Energy Delivery Profile Technologies Ragone Chart
+            <br />(Alternative and Multiscale Power and Energy Storage Technologies, Systems and Markets)   
+        </div>
+        <div>
+            <a target="_blank" href="http://adsabs.harvard.edu/cgi-bin/nph-ref_history?refs=AR&bibcode=2004SPIE.5385...87H"><img class="attachment-small" src="/public/images/news/2012123104/1.jpg" /></a>
+            <br /><a target="_blank" href="http://adsabs.harvard.edu/cgi-bin/nph-ref_history?refs=AR&bibcode=2004SPIE.5385...87H">http://adsabs.harvard.edu/cgi-bin/nph-ref_history?refs=AR&bibcode=2004SPIE.5385...87H</a>
+        </div>
+        <div>
+            <img src="/public/images/news/2012123104/2.jpg" />
+        </div>
+        <p>Evolution of Capacitor Technology Having a Close Relationship with Materials and Packaging Development</p>
+        <div>
+            <img src="/public/images/news/2012123104/3.jpg" />
+        </div>
+        <div>
+            <img src="/public/images/news/2012123104/4.jpg" />
+        </div>
+        <p>Polymer Based Nanodielectric Composites, in Advances in Ceramics – Electric and Magnetic Ceramics, Bio ceramics, Ceramics and Environment, Ch. 7, 15-132 (General Electric).</p>
+        <div>
+            <img src="/public/images/news/2012123104/5.jpg" />
+        </div>
+        <div>
+            <img src="/public/images/news/2012123104/6.jpg" />
+        </div>
+        <p>Toward High Energy Density Capacity with Graceful Failure:  Great deal of knowledge has been acquired about nanodielectrics; however, there is still no breakthrough in increasing dielectric strength and permittivity simultaneously, not to mention keeping low cost and product consistence from bench, pilot to full scale manufacturing of nanomaterials, approaching the business success.  There remain a lot of challenges and opportunities for scientists and engineers to solve the practical problems, not to mention only using nanotechnology for commercialization.</p>
+        <p>&nbsp;&nbsp;<b>·有耗電容器 (Lossy Capacitor) 与集成储能电力电子热管理系统 (Integral Energy Storage Power Electronics Heat Transfer and System Thermal Management): </b> The non-ideal capacitor called a lossy capacitor due to the energy lost as heat due to the resistance  or others, distinguished from the hysteresis energy loss, effectively includes both capacitors and resistors.  A lossy capacitor can be represented as a series or parallel or combination of capacitance C and resistance R including the loss.</p>
+        <p>Capacitors generate heat via dielectric losses and connection losses between the dielectric and the terminals.   These losses can be modeled as a series combination of the capacitor and ESR.  Thermal changes can be calculated simply heat generated minus the heat dissipated. The heat rise during operation can then be expressed as a thermal resistance with units of 0C/watt.  </p>
+        <p>DC Link and AC filter capacitors with very high current requirements are common in power inverters and power supplies.   Capacitor packaging plays a major consideration in system design; some people use a single large unit, while others prefer bundling smaller capacitors into banks.  The packaging decision also affects the appropriate cooling method.  For applications such as medium voltage motor drives and wind or solar power systems, designers have a choice between film and electrolytic capacitors. Cost, volumetric efficiency, and maintainability are the major factors in this decision.  As metallized film capacitor manufacturing techniques and materials continue to improve, their volumetric efficiency and cost have become increasingly attractive.  As many power systems are installed in applications that make servicing difficult, it is important to select the right capacitor(s) and to ensure they meet the appropriate cooling guidelines.</p>
+        <p>An increasing number of power electronic systems require film with foil and metallized film capacitors to handle high currents.  These systems generally rely on water cooled chill plates for thermal management of their components (IGBTs and capacitors).  However, integrating water cooling to film capacitors is a technique that until recently was reserved for the Induction Heating market.  Water cooled capacitors have a forty year history of reliability in these industries. Effective heat transfer using various types of integral water cooling methods for film capacitors significantly influences capacitor performance.     Direct water cooled capacitors occupy much less volume than their air cooled counterparts. The application of liquid cooling for polymer film dielectric capacitors for AC and for DC applications indicates that liquid cooled capacitors will become more common as power electronics’ energy densities increase.</p>
+        <div>
+            <img src="/public/images/news/2012123104/7.jpg" />
+            <img src="/public/images/news/2012123104/8.jpg" />
+        </div>
+        <p>
+            1.	M. Zahn, Charge injection and transport in a lossy capacitor stressed by a Marx generator, 1st International Conference on Conduction and Breakdown in Solid Dielectrics, July 4-8, 1983, Toulouse, France;  IEEE Transactions on Electrical Insulation, Vol. EI-19, No. 3, June, 1984.
+            <br />2.	M. Zahn, Electromagnetic Field Theory:  A problem Solving Approach, Wiley 2nd Ed., 2003.
+            <br />3.	http://ocw.mit.edu/resources/res-6-002-electromagnetic-field-theory-a-problem-solving-approach-spring-2008/index.htm
+            <br />4.	D.D.L. Chung, Functional Materials: Electrical, Dielectric, Electromagnetic, Optical and Magnetic Applications, (With Companion Solution Manual), World Scientific Publishing Company, 2010. 
+            <br />5.	Hari Singh Nalwa, Handbook of Low and High Dielectric Constant Materials and Their Applications: Materials and Processing, Phenomena, Properties and Applications, Academic Press, 1st Ed., 1999.
+            <br />6.	http://www.sciencemag.org/content/313/5785/334.full
+            <br />7.	http://www.sciencemag.org/content/321/5890/821.short
+            <br />8.	http://onlinelibrary.wiley.com/doi/10.1002/adma.200802902/abstract
+            <br />9.	R. Kerrigan, Film capacitors with integral water cooling provide efficient heat transfer and system thermal management,  www.nwl.com/files/file/Capacitors/NWLPCIM2010DOC(1).pdf
+        </p>
+        <p><b>储能晶界层电容 (GBLC) 与 逾渗电容 (PC) VS. 商业成功的多层薄膜电容 (MLCC and TFC)储能:</b></p>
+        <div>
+            <img src="/public/images/news/2012123104/9.jpg" />
+        </div>
+        <p>Comparison of a) diagram of a multilayer capacitor (MLC or MLCC): gray and white regions represent metallic and dielectric layers, respectively, b) diagram of a boundary layer capacitor (BLC or GBLC): white areas represent reduced (semiconductor) ferroelectric grains while gray lines correspond to oxidized (insulator) grain boundaries, and c) diagram of a percolative capacitor (PC): gray and white regions represent metallic  or conductive / semiconducting and dielectric insulating material, respectively [42], Ph.D. Thesis.</p>
+        <p><b>•	Electroactive Doped Ceramics:   From  EEStor’s  Nano-BT Capacitor (ZENN Motor) to A123 Systems’ Nano-LFP Battery (MIT Spin-off, Fisker Automotive) : </b></p>
+        <div>
+            <img src="/public/images/news/2012123104/10.jpg" />
+            <img src="/public/images/news/2012123104/11.jpg" />
+            <img src="/public/images/news/2012123104/12.jpg" />
+        </div>
+        <div>
+            <img src="/public/images/news/2012123104/13.jpg" />
+            <img src="/public/images/news/2012123104/14.jpg" />
+            <img src="/public/images/news/2012123104/15.jpg" />
+        </div>
+        <p>储能电容器的创新以美国 EEstor 公司计划研制生产的 Electrical Energy Storage Units (EESU)最具代表性。EESU 可以认为属于晶界层电容 (Grain Boundary Layer Capacitor, GBLC) 体系, 利用组份改性的钛酸钡 BaTiO3 (Composition Modified Barium Titanate, CMBT), 复合高介电常数聚合物 (High k Polymer) , 做成Nano-CMBT/polymer 样品。根据最新技术专家的现场报告(ZENN Motor Company Releases Consultant’s Report) 及多年的技术经验, 也可以认为属于逾渗电容 (Percolative Capacitor, PC)体系。和锂离子电池正极材料磷酸亚铁锂A123 Systems’ Nano-LFP类似的材料制备工艺, 进行导电内搀杂(Intrinsically Doped) 或导电外包覆(Extrinsically Coated) 并做成纳米颗粒, EEstor 公司采用湿化学工艺, 搀杂改性的高介电常数 BaTiO3 纳米颗粒材料, 包覆厚度为10nm 的氧化铝与钙镁硅酸盐物质形成芯-壳结构, 最后制备成超高压超薄平板电容器组件。不考虑无机陶瓷与有机聚合物实际的电场强度, 据相关专利称, EESU在承受500MV/m (V/mm) 电场强度的同时介电常数er 达到19,818, 从而达到非常高的储能密度 (402 Wh/kg), 目前市场上铅酸电池的储能密度一般只能达到20Wh/kg, 而先进的锂离子电池的储能密度一般为100-265Wh/kg, 153kg的电容器可供10kW功率的电动汽车, 以96km/h速度使用5h, 行驶480km 。ZENN Motor 公司投资并将拥有EEStor 储能电容及EESU技术在电动车 (NEV) 的使用权。</p>
+        <p>无论是哪种晶界层材料或逾渗材料, 若要用于下一代储能动力电容介质, 都需要具有高介电常数和高击穿电压。如果能够通过对晶界的改性和包覆使其介质强度大大提高, 将很可能成为动力电容材料的重要组成部分。但受到晶界层材料内搀杂与外包覆等工艺技术的限制, 譬如容易出现内搀杂难以控制和成分不均或外包裹过厚和包裹不均等现象, 同时要达到纳米级颗粒及微米级成膜厚度也面临挑战, 更不要说保持大批量产品质量的一致性。回顾从二战后发现第一个铁电陶瓷氧化物BaTiO3后对晶界层材料的不断努力, 七十年来的历史经验与教训很容易明白从实验室的DEMO 到工业化大规模生产还有太长太长的路要走。</p>
+        <div>
+            <img src="/public/images/news/2012123104/16.jpg" />
+        </div>
+        <p>ZENN Motor Company Releases Consultant’s Report</p>
+        <p><a href="http://theeestory.ning.com/forum/topics/zenn-motor-company-releases-consultant-s-report?commentId=6495062%3AComment%3A43315">http://theeestory.ning.com/forum/topics/zenn-motor-company-releases-consultant-s-report?commentId=6495062%3AComment%3A43315</a></p>
+        <p><a href="http://www.zenncars.com/">http://www.zenncars.com/</a></p>
+        <p><a href="http://theeestory.com/posts/140217">http://theeestory.com/posts/140217</a></p>
+        <p><a href="http://theeestory.com/posts/141455">http://theeestory.com/posts/141455</a></p>
+        <p><a href="http://www.escn.com.cn/2012/1224/735035.html">http://www.escn.com.cn/2012/1224/735035.html</a></p>
+        <p>TRS Technologies, Inc. </p>
+        <p><a href="http://arpa-e.energy.gov/ProgramsProjects/BEEST/HighEnergyDensityCapacitors.aspx">http://arpa-e.energy.gov/ProgramsProjects/BEEST/HighEnergyDensityCapacitors.aspx</a> </p>
+        <p><b>•	Electroactive Solid Solution Ceramics:   From TRS or Recapping’s Nano-PZT Capacitor to 3M’s NCM or Envia Systems’ Nano-HCMR Battery (ANL Spin-off):</b></p>
+        <p>从二战后发现第一个铁电陶瓷氧化物BaTiO3后对铁电陶瓷及其固溶体的不断改进工作, 七十年来的历史经验与教训很容易明白从实验室的DEMO 到工业化大规模生产同样还有很长的路要走。</p>
+        <p><b>逾渗 应用• 电活性材料 • 电活性复合材料 • 电池储能 • 科学 or 商业</b></p>
+        <p><b>Percolation Applications  • Electroactive Materials  • Electroactive Composites  •  Battery Energy Storage   •  Science or Business</b></p>
+        <div>
+            <img src="/public/images/news/2012123104/17.jpg" />
+            <img src="/public/images/news/2012123104/18.jpg" />
+        </div>
+        <div>
+            <img src="/public/images/news/2012123104/19.jpg" />
+        </div>
+        <p><b>逾渗电活性复合材料储能电池 (Enhanced electrical electronic or ionic percolation of electroactive materials and composites and energy storage in battery )</b></p>
+        <p>电子或离子电导率, Electrical (electronic or ionic) conductivity :<img src="/public/images/news/2012123104/20.jpg" /></p>
+        <p>介电常数或电容率诱电率, Dielectric constant (permittivity) :<img src="/public/images/news/2012123104/21.jpg" /></p>
+        <p><a href="http://adsabs.harvard.edu/cgi-bin/nph-ref_history?refs=AR&bibcode=2004SPIE.5385...87H">http://adsabs.harvard.edu/cgi-bin/nph-ref_history?refs=AR&bibcode=2004SPIE.5385...87H</a></p>
+        <p><a href="http://apl.aip.org/resource/1/applab/v82/i20/p3502_s1?isAuthorized=no">http://apl.aip.org/resource/1/applab/v82/i20/p3502_s1?isAuthorized=no</a></p>
+        <p><a href="http://www.nature.com/nature/journal/v419/n6904/full/nature01021.html">http://www.nature.com/nature/journal/v419/n6904/full/nature01021.html</a></p>
+        <div>
+            <img src="/public/images/news/2012123104/22.jpg" />
+        </div>
+        <div>
+            <img src="/public/images/news/2012123104/23.jpg" />
+        </div>
+        <p><b>Intrinsically Doping or Extrinsically Coating: Grain Boundary Layer or Percolation</b></p>
+        <p>Bound charges in polycrystalline or nanocrystalline semiconducting or organic semiconductor materials can be thought of in different ways.  Real materials are usually highly disordered.   An exciton within a diffusion length of a percolation path can contribute to photocurrent in blends.</p>
+        <p><b>•	Li-ion Battery Percolation and Construction of Structural Battery Energy Storage: </b></p>
+        <div>
+            <img src="/public/images/news/2012123104/24.jpg" />
+        </div>
+        <p>Even in more complicated situations than the one shown, the decisive steps in Li-batteries are ion transport through the electrolyte, phase transfer to the electrode and chemical diffusion in there. The equations refer to small signal behavior. Size reduction acts on the transport coefficients as well as on the proportionality factors containing distances directly. </p>
+        <div>
+            <img src="/public/images/news/2012123104/25.jpg" />
+        </div>
+        <div>
+            <img src="/public/images/news/2012123104/26.jpg" />
+        </div>
+        <div>
+            <img src="/public/images/news/2012123104/27.jpg" />
+        </div>
+        <p>Enhanced Electrode Electronic Percolation in Lithium-ion Battery</p>
+        <div>
+            <img src="/public/images/news/2012123104/28.jpg" />
+        </div>
+        <p>Enhanced Electrolyte Ionic Percolation in Plastic Lithium-ion Battery: Transformation of a soft matter solid electrolyte such as polymer electrolyte with a non-percolative arrangement of highly disordered (higher ion mobility) regions to a percolative arrangement of disordered regions as in gel electrolytes.   Percolative network of disordered regions provide fast ion transport pathways for the mobile ion.</p>
+        <p><a href="http://onlinelibrary.wiley.com/doi/10.1002/adfm.200304322/abstract">http://onlinelibrary.wiley.com/doi/10.1002/adfm.200304322/abstract</a></p>
+        <p><a href="http://www.psu.edu/ur/2002/colorlecs.html">http://www.psu.edu/ur/2002/colorlecs.html</a></p>
+        <p><a href="http://www.electrochem.org/dl/interface/fal/fal03/IF8-03-pages9-12.pdf">http://www.electrochem.org/dl/interface/fal/fal03/IF8-03-pages9-12.pdf</a></p>
+        <p><a href="http://www.marketingtechie.com/search-post.asp">http://www.marketingtechie.com/search-post.asp</a></p>
+        <p><b>•	模块化大容量锂塑电芯 (Modular Large-Capacity Li-Polymer Cell) 与集成储能电池热管理系统(Integral Energy Storage Battery Heat Transfer and  System Thermal Management):</b></p>
+        <p>Without adequate battery thermal management, calls for a ten-year life span for some high energy density Li-ion battery in various thermal environments are unrealistic. For example,   lithium-ion battery capacity decreases with temperature, and battery degrades faster at higher temperatures.  And over time, useful energy from the battery decreases with exposure to elevated temperatures, which impacts on driving range and performance of vehicle.  The environments also significantly influence the lifetime of stationary batteries.   Battery temperature is important, and temperature affects battery: </p>
+        <p>
+        1.	Operation of the electrochemical system;
+        <br />2.	Round trip efficiency;
+        <br />3.	Charge acceptance;
+        <br />4.	Power and energy availability;
+        <br />5.	Safety and reliability;
+        <br />6.	Calendar life and life cycle cost. 
+        </p>
+        <p>The battery temperature affects system performance, reliability, safety, and life cycle (thus cost).  To meet the customer requirements, the cells must be kept in a thermally noncritical state in all operating conditions.  Therefore, efficient battery pack thermal management is needed, i.e.,</p>
+        <p>
+        1.	Regulate pack to operate in the desired temperature range, i.e., 20-35 0C for optimum performance / life;
+        <br />2.	Reduce uneven temperature distribution, i.e., less than 3-4 0C in a pack to avoid unbalanced electrical modules / pack and thus avoid reduced performance;
+        <br />3.	Eliminate potential hazards related to uncontrolled temperatures – thermal runaway.
+        </p>
+        <p>The requirements placed on the thermal management of Li-ion batteries are clearly beyond the capabilities of conventional engine cooling.  There are three different approaches to cooling a Li-ion battery, considering on cell structures, cell types and potential cooling paths, i.e., integration of battery cooling into vehicle cooling system.</p>
+        <p>
+        1.	Using cooled air;
+        <br />2.	Using a supplementary evaporator in the form of a cooling plate installed within the battery;
+        <br />3.	A heat exchanger (or “chiller”) transfers the low temperature produced by the evaporated refrigerant to a second circuit (secondary circuit) that, in turn, cools the cells in the battery. This too necessitates the installation of a cooling plate within the battery.
+        </p>
+        <p>Life trade off analysis of life expectation in various thermal environments indicates that the liquid-cooled battery can use 12% fewer cells and still achieve a 10-year life, compared with no cooling or thermal management.  Air cooling using low-resistance cells also seems appealing from a thermal / life perspective; however, this battery has the highest cell costs of the four options shown due to the cost of its high excess power.  Liquid cooling with chilled fluid has a longer battery life.</p>
+        <div>
+            <img src="/public/images/news/2012123104/29.jpg" />
+        </div>
+        <div>
+            <img src="/public/images/news/2012123104/30.jpg" />
+        </div>
+        <p><a href="http://www1.eere.energy.gov/vehiclesandfuels/pdfs/thermoelectrics_app_2012/wednesday/cunningham.pdf">http://www1.eere.energy.gov/vehiclesandfuels/pdfs/thermoelectrics_app_2012/wednesday/cunningham.pdf</a></p>
+        <p><a href="http://www.sciencemag.org/content/313/5785/334.full">http://www.sciencemag.org/content/313/5785/334.full</a></p>
+        <p><a href="http://www.sciencemag.org/content/321/5890/821.short">http://www.sciencemag.org/content/321/5890/821.short</a></p>
+        <p><a href="http://onlinelibrary.wiley.com/doi/10.1002/adma.200802902/abstract">http://onlinelibrary.wiley.com/doi/10.1002/adma.200802902/abstract</a></p>
+        <p>Li-ion battery cooling: more than just cooling. </p>
+        <p><a href="http://www.behrgroup.com/internet/behrmm.nsf/lupgraphics/Li-ion%20battery%20cooling.pdf/$file/Li-ion%20battery%20cooling.pdf">http://www.behrgroup.com/internet/behrmm.nsf/lupgraphics/Li-ion%20battery%20cooling.pdf/$file/Li-ion%20battery%20cooling.pdf</a></p>
+        <div>
+            <img src="/public/images/news/2012123104/31.png" />
+        </div>
+        <p><b>20-Year R&D History:</b></p>
+        <p>
+        &nbsp;·1993, Ionomer-coated and dispersed inorganic nanoparticles formulation and coating; <br />
+        &nbsp;·1994, Enhanced thermoplastic single-ion conductor and solid-state Li-ion polymer battery (PLIB);<br />
+        &nbsp;·1995, Modified aramid fiber fabric separator for nickel-hydrogen battery;<br />
+        &nbsp;·1996, Insulating polymer coatings for high-temperature self-solderable enameled round winding wires (QA/UEW, class 180);<br />
+        &nbsp;·1997, Tri-layer all-plastic Li-ion battery (PLIB);<br />
+        &nbsp;·1998,  Polymer-metal electrode interface engineering;<br />
+        &nbsp;·1999,  Enhanced plastic adhesion and laminate packaging; <br />
+        &nbsp;·1999,  Electronic-ionic hybrid conductor;<br />
+        &nbsp;·2000,  Fast-response solid-state Li-ion electrochemical cell;<br />
+        &nbsp;·2001,  Thin-film cell assembly, filling and sealing;<br />
+        &nbsp;·2001,  In-situ polymerization technology of gel polymer;<br />
+        &nbsp;·2002,  High energy density plastic thin-film capacitor with graceful failure;<br />
+        &nbsp;·2001,  2D huge p-conjugated delocalized charge macromolecules (superelectronic polarized polymer and graphene) as high density charge and energy storage materials; <br />
+        &nbsp;·2002,  High-k polymer nanocomposite dielectric capacitor energy storage; <br />
+        &nbsp;·2003,  High energy density plastic transducer with graceful failure;<br />
+        &nbsp;·2004,  Low-voltage driven polymer nanocomposite membrane transducer;<br />
+        &nbsp;·2005,  Pre-charging method and pre-charged thin-film built-in bias integration;<br />
+        &nbsp;·2006,  Pre-charged transistor circuitry and integrated analog front end (iAFE);<br />
+        &nbsp;·2007,  Electret and piezo-polymer thin films and  piezo-cables;<br />
+        &nbsp;·2007,  Piezo-polymer film cellular foam transducer;<br />
+        &nbsp;·2008,  Electro-spinning nanofiber nonwoven fabrics;<br />
+        &nbsp;·2008,  Hybrid nanofiber microporous membrane;<br />
+        &nbsp;·2007,  Engineering solutions for scalable battery energy storage;<br />
+        &nbsp;·2007,  Fiber surface modification and coating and fiber prepregs for  pre-impregnated, fiber-reinforced laminate composites;<br />
+        &nbsp;·2008,  Robustly nano-tailored structure for high-throughput high-temperature piezoelectric films;<br />
+        &nbsp;·2009,  Piezo-polymer cell;<br />
+        &nbsp;·2008,  TFC membrane electrode and current collector prepregs;<br />
+        &nbsp;·2008,  TFC membrane electrolyte and separator; <br />
+        &nbsp;·2009,  Gelled electrolyte enhancement; <br />
+        &nbsp;·2009,  TFC membrane coating, laminate packaging and cell stacking; <br />
+        &nbsp;·2008,  Pre-charged electrode;<br />
+        &nbsp;·2010,  High-capacity cathode;<br />
+        &nbsp;·2010,  High-temperature (1800C) TFC plastic electrolyte high-power-density cell packaging;<br />
+        &nbsp;·2008,  Thin-layered bi-cell configuration;<br />
+        &nbsp;·2010,  Current collector pre-treatment and electrode slurry formulation and mixing;<br />
+        &nbsp;·2008,  TFC electrode membrane and slitting;<br />
+        &nbsp;·2009,  Bi-cell packaging and stacking; <br />
+        &nbsp;·2011,  Battery cell formation, degassing, aging, capacity grading and sorting;<br />
+        &nbsp;·2010,  Li-polymer cell design and packaging; <br />
+        &nbsp;·2012,  PLIB pouch cell production assembly line;
+        </p>
+    </div>
+    <div class="clear"></div>
+    <!-- Page navi begin -->
+    <div class="pageNavi">
+        <div class="pageleft"><strong>上一篇: </strong> <a href="2012123103.html" rel="prev">IBM 首次拍到多環芳香烴（Polycyclic Aromatic Hydrocarbons，縮寫PAH）单个分子及离域超电子极化超共面共轭碳大分子的清晰照片</a></div>
+        <div class="pageright"><strong>下一篇: </strong> <a href="2012123105.html" rel="prev">二十年聚合物锂离子电池商业化 Plastic Lithium Ion Battery (PLIB) Business:  1994 Bellcore Patented the Plastic Lithium Ion (PLI) Technology or Solid State Battery, and First All-Plastic Battery of Johns Hopkins as One of 100 Top Scientific Developments and Inventions for 1996 </a></div>
+    </div>
+    <!-- Page navi end -->
+	<!-- Post end-->
+</div>
+<!-- Content end-->                 
+        <!-- Sidebar Begin-->
+<div class="sidebar">
+    <ul>
+        <!-- Products begin -->
+        <!-- Products end -->
+        <!-- Sub pages begin -->
+        <!-- Sub pages end -->
+        <!-- News begin -->
+        <li>
+            <h3>
+                新闻资讯</h3>
+            <ul>
+                <li><a href="20130901.html" title="Refine Energy 瑞能科技: 瑞帆能源科技有限公司发展太阳能光伏发电储能与照明项目(Refinenergy Technologies Co., LTD.)">
+                    Refine Energy 瑞能科技: 瑞帆能源科技有限公司发展太阳能光伏发电储能与照明项目(Refinenergy Technologies Co., LTD.)</a></li>
+                <li><a href="20130301.html" title="UnitePowers 在原有数字与绿色工程新材料专门实验室(Digital and Green Engineering Materials Laboratories)的基础上组建睿智工程材料有限公司(Strategic Engineering Materials Co., LTD.), 主营数字与绿色工程新材料及结构与功能组件新产品系列化开发与模块化制造业务">
+                    UnitePowers 在原有数字与绿色工程新材料专门实验室(Digital and Green Engineering Materials Laboratories)的基础上组建睿智工程材料有限公司(Strategic
+                    Engineering Materials Co., LTD.), 主营数字与绿色工程新材料及结构与功能组件新产品系列化开发与模块化制造业务</a></li>
+                <li><a href="20130206.html" title="UnitePowers 改变锂电池充放电保护电路 (Cell Protection)传统观念, 在3-in-1锂电电芯设计与电芯平衡保护 技术上的创新突破 (3-in-1 Li-Polymer Cell Design, Balancing and Protection Innovation and Breakthrough)">
+                    UnitePowers 改变锂电池充放电保护电路 (Cell Protection)传统观念, 在3-in-1锂电电芯设计与电芯平衡保护 技术上的创新突破 (3-in-1
+                    Li-Polymer Cell Design, Balancing and Protection Innovation and Breakthrough)</a></li>
+                <li><a href="20130205.html" title="新能源含氟薄膜加工实验室 (New Energy Fluorine-Containing Films Processing Laboratory )">
+                    新能源含氟薄膜加工实验室 (New Energy Fluorine-Containing Films Processing Laboratory )</a></li>
+                <li><a href="20130204.html" title="UnitePowers 引进专业企业系统管理模式及资源规划 ERP (Enterprise Resource Planning), 为公司提供企业管理信息化集成的最佳方案SAP (Systems Applications and Products), 提供公司决策层及员工决策运行手段的管理平台">
+                    UnitePowers 引进专业企业系统管理模式及资源规划 ERP (Enterprise Resource Planning), 为公司提供企业管理信息化集成的最佳方案SAP
+                    (Systems Applications and Products), 提供公司决策层及员工决策运行手段的管理平台</a></li>
+                <li><a href="20130203.html" title="UnitePowers 引进专业工业工程过程与制造产品标准、品质保证与科学安全管理方案 (IEOR Chemical, Materials and Cell Process Product Standards, Quality Assurance and Scientific Operations)">
+                    UnitePowers 引进专业工业工程过程与制造产品标准、品质保证与科学安全管理方案 (IEOR Chemical, Materials and Cell Process
+                    Product Standards, Quality Assurance and Scientific Operations)</a></li>
+                <li><a href="20130202.html" title="UnitePowers 引进专业工业工程电芯设计 与技术产品发展创新方案(IEOR Cell Design, Technology Product Innovations)">
+                    UnitePowers 引进专业工业工程电芯设计 与技术产品发展创新方案(IEOR Cell Design, Technology Product Innovations)</a></li>
+                <li><a href="2013020102.html" title="智能手表 (iWatch)健康表带 (Smartwatch, iMonitorTM) 开拓便携式可穿戴市场:  智能手机 (Smartphone)的好伴侣">
+                    智能手表 (iWatch)健康表带 (Smartwatch, iMonitorTM) 开拓便携式可穿戴市场: 智能手机 (Smartphone)的好伴侣</a></li>
+                <li><a href="20130201.html" title="秉承“传承经典，创新未来”的理念 - 大众机械 杂志: 101种改变世界的小器具 (Popular Mechanics: 101 Gadgets that Changed the World)">
+                    秉承“传承经典，创新未来”的理念 - 大众机械 杂志: 101种改变世界的小器具 (Popular Mechanics: 101 Gadgets that Changed
+                    the World)</a></li>
+                <li><a href="20130109.html" title="美国外国投资委员会正式批准万向集团全资子公司万向洁能美国公司2.566亿美元收购破产申请的美国A123系统公司, 包括A123中国独资公司、常州高博能源材料有限公司在内的阴极电池制造业务和上海捷新动力电池的相应股权">
+                    美国外国投资委员会正式批准万向集团全资子公司万向洁能美国公司2.566亿美元收购破产申请的美国A123系统公司, 包括A123中国独资公司、常州高博能源材料有限公司在内的阴极电池制造业务和上海捷新动力电池的相应股权</a></li>
+                <li><a href="20130108.html" title="光伏发电与电池储能电站 (PV Solar Power Generation and Battery Energy Storage): 常州10个光伏应用项目获3.37亿财政补贴, 同时为配套储能电池电站与城镇化建设发展提供契机">
+                    光伏发电与电池储能电站 (PV Solar Power Generation and Battery Energy Storage): 常州10个光伏应用项目获3.37亿财政补贴,
+                    同时为配套储能电池电站与城镇化建设发展提供契机</a></li>
+                <li><a href="20130107.html" title="锂离子电池产业链全景分布图  New Panorama Layers of Upstream and Downstream of  the Industry Value Chain of Li-ion Battery  LIB">
+                    锂离子电池产业链全景分布图 New Panorama Layers of Upstream and Downstream of the Industry Value
+                    Chain of Li-ion Battery LIB</a></li>
+                <li><a href="20130106.html" title="UnitePowers 联合动力有限公司全新电池与电容电极材料设计与突破  (New Electrode Materials Design Innovation and Breakthrough, 2013 Battery and Capacitor)">
+                    UnitePowers 联合动力有限公司全新电池与电容电极材料设计与突破 (New Electrode Materials Design Innovation
+                    and Breakthrough, 2013 Battery and Capacitor)</a></li>
+                <li><a href="20130105.html" title="锂电负极常青树-中间相碳微球 (CMS or MCMB):  杉杉锂电负极材料中间相炭微球项目投产">
+                    锂电负极常青树-中间相碳微球 (CMS or MCMB): 杉杉锂电负极材料中间相炭微球项目投产</a></li>
+                <li><a href="20130104.html" title="十年(2002-2012) 纳米碳及复合碳基材料产业化:  从合成第一个石墨烯的模型化合物到超细石墨粉体与碳增强复合材料的规模生产  10-year Nano-Carbon & Nano-Composite Innovations and Business:  From 1st Graphene Model Compound Synthesis to Design and Manufacture of Nano-Carbon Graphites and Carbon Reinforced Composites">
+                    十年(2002-2012) 纳米碳及复合碳基材料产业化: 从合成第一个石墨烯的模型化合物到超细石墨粉体与碳增强复合材料的规模生产 10-year Nano-Carbon
+                    & Nano-Composite Innovations and Business: From 1st Graphene Model Compound Synthesis
+                    to Design and Manufacture of Nano-Carbon Graphites and Carbon Reinforced Composites</a></li>
+                <li><a href="20130103.html" title="Polymer Dispersed Liquid Crystals  (PDLC Film) were invented at Kent State University in 1983. 30 years  (1983-2013) of development and business of low-cost  Smart Switchable PDLC Windows.">
+                    Polymer Dispersed Liquid Crystals (PDLC Film) were invented at Kent State University
+                    in 1983. 30 years (1983-2013) of development and business of low-cost Smart Switchable
+                    PDLC Windows.</a></li>
+                <li><a href="20130102.html" title="功能塑性薄膜与TFC 增强复合膜创新制造:  常州功能新材料产业园, “苏南膜都”产业链    Functional Plastic Films and TFC Reinforced Membrane Innovations:  Changzhou Functional New Materials Industrial Park and Value Chain">
+                    功能塑性薄膜与TFC 增强复合膜创新制造: 常州功能新材料产业园, “苏南膜都”产业链 Functional Plastic Films and TFC Reinforced
+                    Membrane Innovations: Changzhou Functional New Materials Industrial Park and Value
+                    Chain</a></li>
+                <li><a href="20130101.html" title="全球第一个图形触觉显示器：让盲人感受图像   Finger-Friendly “Tactile Interface” Could Aid Blind Computer Users">
+                    全球第一个图形触觉显示器：让盲人感受图像 Finger-Friendly “Tactile Interface” Could Aid Blind Computer
+                    Users</a></li>
+                <li><a href="2012123107.html" title="<i>i</i>BattTM China and USA Trademark Applications">
+                    <i>i</i>BattTM China and USA Trademark Applications</a></li>
+                <li><a href="2012123106.html" title="“Built-in Pre-Charged Materials: From Microphone to Battery and Vice Versa” - for 50 years of the development of foil electret microphone of Bell Laboratories (1962-2012)">
+                    “Built-in Pre-Charged Materials: From Microphone to Battery and Vice Versa” - for
+                    50 years of the development of foil electret microphone of Bell Laboratories (1962-2012)</a></li>
+                <li><a href="2012123105.html" title="二十年聚合物锂离子电池商业化 Plastic Lithium Ion Battery (PLIB) Business:  1994 Bellcore Patented the Plastic Lithium Ion (PLI) Technology or Solid State Battery, and First All-Plastic Battery of Johns Hopkins as One of 100 Top Scientific Developments and Inventions for 1996">
+                    二十年聚合物锂离子电池商业化 Plastic Lithium Ion Battery (PLIB) Business: 1994 Bellcore Patented
+                    the Plastic Lithium Ion (PLI) Technology or Solid State Battery, and First All-Plastic
+                    Battery of Johns Hopkins as One of 100 Top Scientific Developments and Inventions
+                    for 1996</a></li>
+                <li><a href="2012123104.html" title="二十年高能密度电活性聚合物及复合薄膜储能换能产品的研发促成我们模块化大容量锂塑电池与模块化高灵敏度压塑电芯走向商业化 (The Business of Innovations of Modular Large-Capacity Li-Polymer Cell and Modular High-Sensitivity Piezo-Polymer Cell via 20-Year R&D of High Energy Density Electroactive Polymers and TFC Membrane Energy Storage and Conversion)">
+                    二十年高能密度电活性聚合物及复合薄膜储能换能产品的研发促成我们模块化大容量锂塑电池与模块化高灵敏度压塑电芯走向商业化 (The Business of Innovations
+                    of Modular Large-Capacity Li-Polymer Cell and Modular High-Sensitivity Piezo-Polymer
+                    Cell via 20-Year R&D of High Energy Density Electroactive Polymers and TFC Membrane
+                    Energy Storage and Conversion)</a></li>
+                <li><a href="2012123103.html" title="IBM 首次拍到多環芳香烴（Polycyclic Aromatic Hydrocarbons，縮寫PAH）单个分子及离域超电子极化超共面共轭碳大分子的清晰照片">
+                    IBM 首次拍到多環芳香烴（Polycyclic Aromatic Hydrocarbons，縮寫PAH）单个分子及离域超电子极化超共面共轭碳大分子的清晰照片</a></li>
+                <li><a href="2012123102.html" title="《新材料产业“十二五”发展规划》与 《高性能膜材料科技发展“十二五”专项规划》">《新材料产业“十二五”发展规划》与
+                    《高性能膜材料科技发展“十二五”专项规划》</a></li>
+                <li><a href="2012123101.html" title="国家能源局《国家能源科技“十二五”规划（2011-2015）》及国家能源研发（实验）中心授牌">
+                    国家能源局《国家能源科技“十二五”规划（2011-2015）》及国家能源研发（实验）中心授牌</a></li>
+                <li><a href="2012100101.html" title="“十二五”国家战略性新兴产业发展规划">“十二五”国家战略性新兴产业发展规划</a></li>
+                <li><a href="2012100102.html" title="《“健康中国2020”战略研究报告》">《“健康中国2020”战略研究报告》</a></li>
+                <li><a href="2012100103.html" title="Business Spotlight: Innovations beside You 1 – Putting Technology into Products: Gore and e-PTFE">
+                    Business Spotlight: Innovations beside You 1 – Putting Technology into Products:
+                    Gore and e-PTFE</a></li>
+                <li><a href="2012100104.html" title="Business Spotlight: Innovations beside You 2 – Long-Term Teaming, Collaboration and the Entrepreneurial Spirit & 4 Specific Examples of High-Tech Innovation and Industrial Success">
+                    Business Spotlight: Innovations beside You 2 – Long-Term Teaming, Collaboration
+                    and the Entrepreneurial Spirit & 4 Specific Examples of High-Tech Innovation and
+                    Industrial Success</a></li>
+                <li><a href="2012100105.html" title="美国医疗科技行业巨头美敦力(Medtronic):出资约8.16亿美元并购中国康辉(Kanghui)">
+                    美国医疗科技行业巨头美敦力(Medtronic):出资约8.16亿美元并购中国康辉(Kanghui)</a></li>
+                <li><a href="7.html" title="威尔思信息科技公司加盟意向开发电池储能软件系统及远程通讯诊断控制系统！">威尔思信息科技公司加盟意向开发电池储能软件系统及远程通讯诊断控制系统！</a></li>
+                <li><a href="6.html" title="睿智能源科技公司 加盟注资! 太阳能储能系统">睿智能源科技公司 加盟注资! 太阳能储能系统</a></li>
+                <li><a href="5.html" title="巨茂车业 加盟注资!  电极材料生产线与电池组装线">巨茂车业 加盟注资! 电极材料生产线与电池组装线</a></li>
+                <li><a href="4.html" title="大学加盟意向- 产学研相结合，发展新材料新能源产业，实现产学研示范基地">大学加盟意向- 产学研相结合，发展新材料新能源产业，实现产学研示范基地</a></li>
+                <li><a href="3.html" title="联合动力有限公司主要产品">联合动力有限公司主要产品</a></li>
+                <li><a href="2.html" title="“Can you hear me” “Instead hearing, now I can see…”">“Can
+                    you hear me” “Instead hearing, now I can see…”</a></li>
+                <li><a href="1.html" title="企业新闻">企业新闻</a></li>
+            </ul>
+        </li>
+        <!-- News end -->
+        <!-- Contact begin -->
+        <li class="widget widget_text">
+            <div class="textwidget">
+                <a href="/contact/index.html">
+                    <img src="../public/images/contact-us_sidebar.jpg"></a>
+            </div>
+        </li>
+        <!-- Contact end -->
+    </ul>
+</div>
+<!-- Sidebar end-->
+<script language="javascript">
+    $(function () {
+        $("#news").addClass("current-cat");
+    });
+</script>
+        </div>
+</div>
+<!-- Container end-->
+</div>
+<!-- Wrapper end-->
+<div class="clear"></div>
+<!-- BlogRoll begin -->
+<div class="friendlink">
+  <h3>友情链接</h3>
+  <ul>
+    <li><a href="http://ucgef.org/" target="_blank">美中绿色能源促进会</a></li>
+    <li><a href="http://www.sgepri.sgcc.com.cn/" target="_blank">智能电网与电力装备产业联盟</a></li>
+    <li><a href="http://www.chinasmartgrid.com.cn/" target="_blank">智能电网</a></li>
+    <li><a href="http://www.chinapower.com.cn/" target="_blank">电力网</a></li>
+    <li><a href="http://www.sgcc.com.cn/" target="_blank">国家电网</a></li>
+    <li><a href="http://www.epri.sgcc.com.cn" target="_blank">中国电科院EPRI</a></li>
+    <li><a href="http://www.sgepri.sgcc.com.cn/" target="_blank">国网电科院SGEPRI</a></li>
+    <li><a href="http://www.nari-china.com" target="_blank">南瑞集团NARI</a></li>
+    <li><a href="http://www.china5e.com/" target="_blank">能源网</a></li>
+    <li><a href="http://www.solarbe.com/" target="_blank">中国光伏网</a></li>
+    <li><a href="http://www.sqgzz.cn/" target="_blank">太阳能发电网</a></li>
+    <li><a href="http://www.globepv.com/" target="_blank">环球光伏网</a></li>
+    <li><a href="http://www.escn.com.cn/" target="_blank">中国储能网</a></li>
+    <li><a href="http://www.escn.com.cn/special/research/research.html" target="_blank">中国储能研究院</a></li>
+    <li><a href="http://www.electricitystorage.org/about/welcome" target="_blank">ESA</a></li>
+    <li><a href="http://ec-central.org/index.cfm" target="_blank">ECA</a></li>
+    <li><a href="http://www.iec.ch" target="_blank">IEC</a></li>
+    <li><a href="http://www.ewh.ieee.org/cmte/PES-SBC/index.html" target="_blank">SBC</a></li>
+    <li><a href="http://www.electrochem.org" target="_blank">ECS</a></li>
+    <li><a href="http://www.ciaps.org.cn" target="_blank">化学与物理电源行业协会</a></li>
+    <li><a href="http://www.tjbattery.com.cn" target="_blank">锂离子电池网</a></li>
+    <li><a href="http://blog.sina.com.cn/vrbbattery" target="_blank">液流电池网</a></li>
+    <li><a href="http://www.e2sensor.com" target="_blank">传感器网</a></li>
+    <li><a href="http://www.cetimes.com" target="_blank">医疗电子网</a></li>
+    <li><a href="http://www.wsnpark.cn/Default.aspx" target="_blank">智能物联网产业联盟与国家传感信息中心</a></li>
+    <li><a href="http://www.cie-info.org.cn/" target="_blank">电子学会与可穿戴技术产业联盟</a></li>
+    <li><a href="http://www.cetc.com.cn/" target="_blank">中国电科CETC</a></li>
+    <li><a href="http://www.ep.org.cn/" target="_blank">江南微电子</a></li>
+    <li><a href="http://www.cec.com.cn/" target="_blank">中国电子CEC</a></li>
+    <li><a href="http://www.hdeg.com/" target="_blank">华东电子</a></li>
+    <li><a href="http://www.polymer.cn" target="_blank">聚合物网</a></li>
+    <li><a href="http://www.coatingdata.com" target="_blank">薄膜网</a></li>
+    <li><a href="http://www.frponline.com.cn" target="_blank">复材在线</a></li>
+    <li><a href="http://www.mrs.org/home" target="_blank">MRS</a></li>
+    <li><a href="http://www.onami.us/nano-network" target="_blank">ONAMI</a></li>
+    <li><a href="http://www.sampe.org" target="_blank">SAMPE</a></li>
+    <li><a href="http://www.materials.net.cn" target="_blank">新材料产业网</a></li>
+    <li><a href="http://www.zhizaoye.net" target="_blank">先进制造业网</a></li>
+    <li><a href="http://cn.made-in-china.com" target="_blank">制造电子商务网</a></li>
+    <li><a href="http://www.mesworld.cn/" target="_blank">数字化制造网</a></li>
+    <li><a href="http://www.nema.org/Pages/default.aspx" target="_blank">NEMA</a></li>
+    <li><a href="http://www.edsc.org" target="_blank">EDS</a></li>
+    <li><a href="http://www.ce.org" target="_blank">CEA</a></li>
+    <li><a href="http://cesweb.org" target="_blank">CES</a></li>
+    <li><a href="http://www.ca800.com/pt/powerelectronic.html" target="_blank">电力电子网</a></li>
+    <li><a href="http://www.ep-soft.cn/" target="_blank">电力信息化网</a></li>
+    <li><a href="http://xinxihua.bjx.com.cn/" target="_blank">电力软件网</a></li>
+    <li><a href="http://www.ddqcw.com/" target="_blank">电动汽车网</a></li>
+    <li><a href="http://www.fadian.org/" target="_blank">发电机网</a></li>
+    <li><a href="http://www.statepower.com.cn/" target="_blank">电力设备管理协会</a></li>
+    <li><a href="http://www.cceep.com/" target="_blank">电力设备网</a></li>
+    <li><a href="http://www.dlsbpj.com/" target="_blank">电力设备配件网</a></li>
+    <li><a href="http://www.cndlzb.com/" target="_blank">电力设备招标网</a></li>
+    <li><a href="http://www.cpeinet.com.cn/" target="_blank">电能成套设备信息网</a></li>
+    <li><a href="http://www.ceeia.com/" target="_blank">电器工业协会CEEIA</a></li>
+  </ul>
+</div>
+<!-- BlogRoll end -->
+<!-- Footer Begin-->
+<div class="footer">
+	<!--<ul class="footpage">
+        <li class="nb"><a href="http://www.unitepowers.com/">首页</a></li>
+        <li class="page_item page-item-20"><a href="http://www.unitepowers.com/?page_id=20" title="留言版">留言版</a></li>
+        <li class="page_item page-item-18"><a href="http://www.unitepowers.com/?page_id=18" title="联系我们">联系我们</a></li>
+        <li class="page_item page-item-6"><a href="http://www.unitepowers.com/?page_id=6" title="公司介绍">公司介绍</a></li>
+    </ul>-->
+   	<p>Copyright (c) 2010-2012 UnitePowers.com All rights reserved. 联合动力有限公司版权所有. Inquiries Welcome:<a href="mailto:info@unitepowers.com">info@unitepowers.com</a></p>
+</div>
+<!-- Footer end-->
+</body>
+</html>
